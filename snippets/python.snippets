@@ -1,0 +1,34 @@
+
+snippet def
+	def ${1:function_name}(${2:args}):
+		"""${3:docstring}"""
+		${4:pass}
+
+snippet if
+	if ${1:condition}:
+		${2:pass}
+
+snippet for
+	for ${1:item} in ${2:iterable}:
+		${3:pass}
+
+snippet class
+	class ${1:ClassName}(${2:object}):
+		"""${3:docstring}"""
+		def __init__(self, ${4:args}):
+			${5:pass}
+
+snippet try
+	try:
+		${1:pass}
+	except ${2:Exception} as ${3:e}:
+		${4:pass}
+
+snippet title
+  # ${1:title}
+  # Created On `strftime("%d-%m-%Y")`
+
+snippet comment
+  # ${1:comment} --> `strftime("%Y-%m-%d")`
+
+
